@@ -23,6 +23,3 @@ for position in data:
     category = position['subCategoryResponse']['categoryResponse']['name']
     subcategory = position['subCategoryResponse']['name']
     menu[category][subcategory].append(position['name'])
-
-
-print(menu)
